@@ -1,0 +1,97 @@
+# Chip number, Description, Notes
+SN74HC00N,2 in NAND x4,
+SN74HC02N,2 in NOR x4,
+SN74HC04N,Hex Inverter x6,
+SN74HC08N,2 in AND x4,
+SN74HC32N,2 in OR x4,
+SN74HC74N,D Flip-Flop x2,
+SN74HC86N,2 in XOR x4,
+CD74HC299E,8 bit shift register,3 state compatible
+LM308N,Op-Amp,In drawer labeled LM324N
+LM324AH,Op-Amp x4,In drawer labeled LM324N
+PIC16F616,8 bit micro controller,
+MCM6665AP20,64K x 1 bit DRAM, In drawer 64K DRAM
+Z80A,Intel 8080 compatible genral purpose CPU,Really Fucking Cool
+74LS241,Octal Buffer and Line driver w/ 3 state,
+F4069UBPC,<Unknown> possibly hex inverter,In drawer labeled 8406
+MAX7221CNG,8 digit 7 segment led display driver,
+4052BPC,Dual 4 Channel analog Mux/Demux,I'm not completely sure of this one tbh
+74193,Synchronous 4 bit up/down counter,Drawer labeled 74193PCOM and the chip says 74192PCQM
+74LS42,1 -> 10 Decoder,
+LM1872N,RF receiver decoder,50kHz-72MHz 27 49 and 72 MHz in particular
+74LS151,8 bit selector/multiplexer,
+10415AJ,<Unknown>,Creamic DIP tho
+MPQ2222,NPN Transistox x4,
+A1-2539-5,Very high slew op-amp 600MHz,In drawer labeled A1 2635 5 Ceramic Dip
+CD4051BE,8 channel analo mux/demux w/ logic level convert,
+MC14042B,Transparent Latch x4,
+HCF4013BE,D Flip-Flop x2,In drawer labeled MC14042B ??Compatible with 74HC74N?? didn't compare datasheets
+SN76604N,Bidirectional servo amp and pulse width detector,Whatever that means
+GM71C1000-80,1M x 1 bit DRAM,IN 9042 drawer
+D8284A,M8086 Clock Generator,In 9042 drawer ceramic dip pins in questionable condition
+AAA2801P,256k x 1 bit pagemode DRAM,Datasheet is part way down
+AM26LS31PC,High Speed Differential Line Drive x4,In drawer 8539LMP
+MC10124L,TTL -> MECL translator x4,In drawer 8539LMP
+316A473,Resistor network,In drawer 8539LMP No Datasheet found
+316A103,Resistor Network,In drawer 8539LMP No Datasheet found
+CW1038D,<Unknown>,In drawer JYP3 SOIC
+MC14070,XOR x4,
+HCF4049UBE,Inverting hex buffer/converter,In drawer MC10470
+MC14553B,3 bit BCD counter,In drawer MC10470
+LMD18200T,55V 3A H bridge,
+PIC16F73,8 bit micro controller,In drawer below 9042
+LM317T,1.2 to 37V voltage regulator,In drawer below 9042
+PIC16LF77,8 bit micro controller,In drawer below AAA2801P same family as PIC16F73 same datasheet
+C1318,NPN Transistor,
+A720,PNP Transistor,
+3904,NPN Transistor, 
+TIP122G,NPN Transistor,
+MC7905,Negative Voltage Regulator,
+IRF740,Power MOSFET,
+AUIRFZ44N,Power MOSFET,
+M2222A,NPN Epitaxial Planar Transistor, whatever the fuck that means
+3906,PNP Transistor,
+ZVP3306A,P-Channel MOSFET,
+L7805,Positive Voltage Regulator,
+TIP41,NPN Power Transistor, Only one as of 2022-10-31
+74LS00,2 in NAND x4,
+74LS02,4 in NOR x4,
+74LS04,Inverter,
+74LS08,2 in AND x4,
+74LS10,3 in NAND x4,
+74LS20,4 in NAND x4,
+74LS27,3 in NOR x4,
+74LS32,2 in OR x4,
+74LS86,2 in XOR x4, datasheet claims to be obselete
+74LS114,JK Flip-Flop x2,
+74LS126,Quad 3 state bus,
+74LS153,4 in Mux x2,
+74LS158,2 in Mux x4,
+74LS283,4 bit adder,
+74F240,Octal buffer with 3 state output,
+74F543,Octal latched tranciever w/ dual enable and 3 state,
+74HCT14,Schmitt Hex Inverters,
+74HC595,Shift Register w/ 3 state,
+4114R-2-102LF,Resistor Net,Same datasheet as 473LF
+4114R-2-472LF,Resistor Net,Same datasheet as 102LF
+ER3400,EAROM 1024x4bit,
+NE5539,UHF Op-Amp,
+CD4007A,CMOS Dual Complementary Pair plus Inverter,
+CD4052BE,8 channel mux/demux w/ logic level conversion,
+IMS1400,16Kx1 SRAM,
+26LS32,Differential Line Receivers x4,
+P8282,Octal Latch,
+PIC24FJ16GA002,PIC micro controller,
+SY2147HL,4Kx1 SRAM,Couldn't find datasheet,info from ebay listing
+MCP41100,8 bit digital SPI pot,
+MC10101,OR/NOR gate x4,
+MC10102,2 in NOR w/ OR out on 1 gate,shitty MC10101
+MC10104,2 in AND w/ NAND out on 1 gate,
+MC10125,MECL to TTL translator,
+MC10131,D Flip-Flop x2,
+MC10133,Latch x4,
+MC10135,JK Flip-Flop,
+MC10136,Universal Hex Counter,
+MC10198,Monostable multivibrator,
+MC12061,Crystal Vibrator w/o crystal,
+NA555P,Precision Timer,
