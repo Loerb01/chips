@@ -62,7 +62,7 @@ TIP41,NPN Power Transistor, Only one as of 2022-10-31
 74LS20,4 in NAND x4,
 74LS27,3 in NOR x4,
 74LS32,2 in OR x4,
-74LS86,2 in XOR x4, datasheet claims to be obselete
+74LS86,2 in XOR x4, datasheet claims chip to be obselete
 74LS114,JK Flip-Flop x2,
 74LS126,Quad 3 state bus,
 74LS153,4 in Mux x2,

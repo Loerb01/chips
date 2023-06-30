@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+	<title>CSH Chips!</title>
+	<script>
+		function getResults(searcht) {
+			const request = new XMLHttpRequest();
+			request.onload = function() {
+				const linesT = request.response.split("\n");
+				const lines = linesT.slice(1, linesT.length-1);
+
+				var search = searcht;
+				if(search == null) {
+					search = "";
+				}
+				const matching = [];
+				for(line of lines) {
+					if(line.includes(search)) {
+						matching.push(line);
+					}
+				}
+
+				var resTable = "<tr><th>Part Number</th><th>Short Description</th><th>Notes</th><th>Datasheet Link</th></tr>";
+
+				for(item of matching) {
+					const pieces = item.split(",");
+					resTable += ("<tr><td>"+pieces[0]+"</td><td>"+pieces[1]+"</td><td>"+pieces[2]+"</td><td><a target='_blank' href='chips/"+pieces[0]+"/"+pieces[0]+".pdf'>Relevant Files</a></td></tr>");
+				}
+
+				document.getElementById('resTable').innerHTML = resTable;
+			}
+			request.open("GET", "chips/definitions.csv", true);
+			request.send();
+		}
+	</script>
+
+	<style>
+	table {
+	  font-family: arial, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+	
+	td, th {
+	  border: 1px solid #dddddd;
+	  text-align: left;
+	  padding: 8px;
+	}
+	
+	tr:nth-child(even) {
+	  background-color: #dddddd;
+	}
+	</style>
+</head>
+
+<body onload="getResults(window.location.search.split('=')[1]);">
+	<h1>Chips!</h1>
+	<form name="searchForm" id="searchForm"> 
+		<label for="search">Search Chips:</label>
+		<input type="text" id="search" name="search">
+		<button type="submit">Submit</button>
+	</form> 
+
+	<table id="resTable">
+
+	</table>
+</body>
